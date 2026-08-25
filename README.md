@@ -6,6 +6,14 @@ This demo BA:con presentation showcases the tech behind the NPU that is enabled 
 - If one person is looking at the screen, a pizza video plays
 - If more than one person is looking at the screen, a salad video plays
 
+> **Looking for a complete solution?**
+> [**Argus**](https://github.com/brightsign/argus-audience-measurement-extension) is BrightSign's
+> reference audience-measurement application: person counting, gaze detection, dwell time,
+> entry/exit events, and movement analytics, published over MQTT and Prometheus. This repository
+> is a single-purpose example of one piece of that system.
+>
+> *For production audience analytics rather than a demo presentation, use Argus.*
+
 ## Building 
 
 To use this you will need to have BrightAuthor:connected (BA:connected) installed.  You can open the presentation in the [preso](./preso/) folder.
@@ -14,9 +22,10 @@ Media for this presentation is in the [media](./media) folder.
 
 ## Ensure the BSMP is Installed
 
-If your player needs the extension installed, include the [bsfw installation package](./bsfw/cobra-standalone-npu_gaze-0.1.3-alpha.bsfw) on the root of the SD card and it will be automatically installed on the next boot.
-
-This BSMP is released as an ALPHA quality only.  
+If your player needs the extension installed, download the latest
+[gaze detection BSMP](https://github.com/brightsign/brightsign-npu-gaze-extension/releases/latest),
+place the `.bsfw` file on the root of the SD card, and it will be installed automatically on the
+next boot.
 
 
 ## Licensing
